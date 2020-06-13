@@ -1,0 +1,169 @@
+#title{
+	background-color: #ff4c68;
+}
+
+#title .container-fluid{
+	padding: 3% 15% 7%;
+	color: #fff;
+}
+
+#title h1{
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/*navigation bar*/
+
+#title .navbar{
+	padding: 0 0 4.5rem;
+}
+
+#title .navbar-brand{
+	font-family: 'ubuntu';
+	font-size: 2rem;
+}
+
+#title .nav-item{
+	padding: 0px 18px;
+}
+
+#title .nav-link{
+	font-size: 1.2rem;
+}
+
+/*buttons*/
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+/*title-image*/
+
+.title-image{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+
+/*features*/
+
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+}
+
+.title-features{
+	padding: 5%;
+	text-align: center;
+}
+
+.icon{
+	color: #ef8172;
+	padding-bottom: 1rem;
+}
+
+.icon:hover{
+	color: #ff4c68;
+}
+
+/*testimonials*/
+
+#testimonials{
+	background-color: #ef8172;
+	text-align: center;
+}
+
+#testimonials .carousel-item{
+	padding: 7% 15%;
+}
+
+#testimonials h2{
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.testimonial-image{
+	width: 15%;
+	border-radius: 100%;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+}
+
+.press-image{
+	width: 15%;
+	padding: 0 20px 30px;
+}
+
+/*pricing section*/
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-column{
+	padding: 5% 3%;
+}
+
+#pricing h2{
+	color: #000;
+	font-size: 3rem;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+/*call to action*/
+
+#cta{
+	background-color: #ff4c68;
+	text-align: center;
+}
+
+#cta h3{
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 20px;
+}
+
+/*footer*/
+
+#footer{
+	text-align: center;
+	margin: 5%;
+}
+
+.social-icon{
+	margin: 10px 5px;
+}
+
+@media (max-width: 1028px){
+	#title{
+		text-align: center;
+	}
+
+	.title-image{
+		transform: rotate(0);
+		position: static;
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
